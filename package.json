@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "gulp-util": "^3.0.6",
-    "Nebo15/s18n": "^2.0.1",
+    "s18n": "Nebo15/s18n",
     "through2": "^2.0.0"
   },
   "devDependencies": {
