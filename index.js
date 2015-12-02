@@ -161,6 +161,7 @@ module.exports.extract = function(options) {
   if (typeof options.native === 'undefined') {
     options.native = 'en';
   }
+  options.hashAlgorithm = options.hashAlgorithm || "plain";
 
   var projectLocale = {};
   var canOutput = false;
